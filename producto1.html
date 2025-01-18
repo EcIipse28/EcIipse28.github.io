@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teléfono Inteligente - Ecuadia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .product-details {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: flex;
+            gap: 20px;
+        }
+        .product-details img {
+            max-width: 300px;
+            border-radius: 5px;
+        }
+        .product-info {
+            flex: 1;
+        }
+        .product-info h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        .product-info p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .product-info .price {
+            color: green;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .product-info button {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .product-info button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Detalles del Producto</h1>
+    </header>
+    <div class="product-details">
+        <img src="https://via.placeholder.com/300" alt="Teléfono Inteligente">
+        <div class="product-info">
+            <h1>Teléfono Inteligente</h1>
+            <p>Este teléfono cuenta con las últimas tecnologías, pantalla de alta resolución, cámara de 108 MP y una batería de larga duración.</p>
+            <p class="price">$499.99</p>
+            <button onclick="alert('Producto agregado al carrito')">Agregar al carrito</button>
+        </div>
+    </div>
+</body>
+</html>
