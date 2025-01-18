@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Tienda en Una</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .section h2 {
+            text-align: center;
+            color: #333;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+            background: white;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .product h3 {
+            font-size: 16px;
+            color: #333;
+        }
+        .product p {
+            color: green;
+            font-size: 14px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda Principal</h1>
+        <p>Explora nuestras secciones: Electrónica, Ropa y Comestibles.</p>
+    </header>
+    <nav>
+        <a href="#electronics">Electrónica</a>
+        <a href="#clothing">Ropa</a>
+        <a href="#groceries">Comestibles</a>
+    </nav>
+    <div id="electronics" class="section">
+        <h2>Electrónica</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Teléfono">
+                <h3>Teléfono Inteligente</h3>
+                <p>$499.99</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Laptop">
+                <h3>Laptop</h3>
+                <p>$899.99</p>
+            </div>
+        </div>
+    </div>
+    <div id="clothing" class="section">
+        <h2>Ropa</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Camiseta">
+                <h3>Camiseta</h3>
+                <p>$19.99</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Jeans">
+                <h3>Jeans</h3>
+                <p>$39.99</p>
+            </div>
+        </div>
+    </div>
+    <div id="groceries" class="section">
+        <h2>Comestibles</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Manzanas">
+                <h3>Manzanas</h3>
+                <p>$3.99/kg</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Leche">
+                <h3>Leche</h3>
+                <p>$2.49</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Tienda Principal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
